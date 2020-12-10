@@ -1,0 +1,3 @@
+git clone https://github.com/TheSoulReaperr/lab-dec-10-2020
+sed -i 's/YOUR_API_KEY//' index.html
+gcloud deployment-manager deployments create my-first-deployment --config vm.yaml
